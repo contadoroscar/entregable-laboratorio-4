@@ -1,15 +1,15 @@
 /* General */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    background-color: #95d5f3;
+    color: #f58181;
     line-height: 1.6;
 }
 
 h1 {
-    color: #2c3e50;
+    color: #096615;
     margin-bottom: 10px;
 }
 
