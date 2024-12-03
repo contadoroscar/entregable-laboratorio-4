@@ -3,11 +3,13 @@ const form = document.querySelector(".contact-form form");
 form.addEventListener("submit", (event) => {
     event.preventDefault();
 
-    const nombre = document.getElementById('nombre').value;
+    const nombre= document.getElementById('nombre').value;
+    const telefono = document.getElementById('telefono').value;
     const descripcion = document.getElementById('descripcion').value;
     const correo = document.getElementById('correo').value;
 
     console.log("Nombre:", nombre);
+    console.log("Telefono:", telefono);
     console.log("Descripción:", descripcion);
     console.log("Correo:", correo);
 
